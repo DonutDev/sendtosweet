@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discord Webhook</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="login" class="notloggedin">
+        <button id="loginwithdiscord">Login with Discord</button>
+        <button id="manual_login">Alternative Method</button>
+        <div id="login_status"></div>
+    </div>
+
+    <div id="settings" class="hidden">
+        <label id="username_label" class="hidden">Username: <input type="text" id="username"></label>
+        <div id="webHookSettings">
+            <label>Webhook URL Evil2: <input type="text" id="webHookUrl_evil2"></label><br>
+            <label>Webhook URL Ragevil: <input type="text" id="webHookUrl_ragevil"></label><br>
+            <label>Webhook URL National Skibidi: <input type="text" id="webHookUrl_nationalskibidi"></label><br>
+            <label>Webhook URL Nemes: <input type="text" id="webHookUrl_nemes"></label><br>
+        </div>
+        <button id="saveSettings">Save Settings</button>
+        <div id="webHookInfo"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
